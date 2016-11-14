@@ -1,0 +1,41 @@
+		<div class="search-header">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-md-4">
+        
+        <form>
+          <p class="lead" style="color:red">Find your favourite TV Shows here:</p>
+          
+          <div class="input-group">
+            <input type="text" class="form-control input-md"/ ng-model="showquery">
+            <span class="input-group-btn">
+            	<button 
+            		type="button"
+            		class="btn btn-md btn-warning pull-right" ng-click="fetchData()">
+            		SEARCH
+            	</button>
+            </span>
+          </div>  
+        </form>
+
+        <div class="more-results-block" show-data>
+          <p>
+            <hr/>
+          </p>
+          <div>
+            <p>
+            	<a style="cursor: pointer" class="h5">
+
+            	</a>
+            </p>
+          </div>
+        </div>
+        
+      </div>
+   
+      <div class="col-md-1"></div>
+
+    </div>
+  </div>
+</div>
